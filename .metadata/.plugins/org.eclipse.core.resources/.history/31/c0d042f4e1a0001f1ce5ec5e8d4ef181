@@ -1,0 +1,47 @@
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		/* ho essenzialmente due tipi di liste
+		 * LinkedList, ArrayList
+		 */
+		LinkedList<Integer> li;
+		li = new LinkedList<Integer>();
+		
+		//appendi in fondo
+		li.add(7);
+		li.add(2);
+		li.add(70);
+		li.add(30);
+		System.out.println(li);
+		
+		//Il primo elemento
+		System.out.println(li.getFirst());
+		
+		//L'ultimo elemento
+		System.out.println(li.getLast());
+		
+		//elemento i
+		System.out.println(li.get(2));
+		
+		for (Integer i: li) {
+			System.out.println(i + " ");
+		}
+		System.out.println();
+		
+		//Ora vorrei stampare al contrario
+		Collections.reverse(li);
+		System.out.println(li);
+		
+		//Disordinare
+		Collections.shuffle(li);
+		System.out.println(li);
+		
+		//Ordinare
+		Collections.sort(li);
+		System.out.println(li);
+		
+		
+	}
+
+}

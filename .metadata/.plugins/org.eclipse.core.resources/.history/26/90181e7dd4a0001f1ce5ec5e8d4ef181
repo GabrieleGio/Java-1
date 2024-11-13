@@ -1,0 +1,20 @@
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		/* ho essenzialmente due tipi di liste
+		 * LinkedList, ArrayList
+		 */
+		LinkedList<Integer> li;
+		li = new LinkedList<Integer>();
+		
+		//appendi in fondo
+		li.add(7);
+		li.add(2);
+		li.add(70);
+		li.add(30);
+		System.out.println(li);
+		System.out.println(li.getFirst());
+	}
+
+}

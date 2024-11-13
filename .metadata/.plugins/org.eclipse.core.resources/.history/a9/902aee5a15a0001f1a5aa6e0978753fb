@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+ 
+public class Main {
+ 
+public static void main(String[] args) {
+//Ho definito una variabile che si chiama li 
+//ed è una LinkedList di numeri interi
+LinkedList<Integer> li = new LinkedList<Integer>();
+ 
+li.add(7);
+li.add(9);
+li.add(2);
+for (var i: li) {
+System.out.println(i);
+}
+ArrayList<Integer> lai = new ArrayList<Integer>();
+ 
+/*
+* Definire una classe Aereo con numero di posti fisso (vettore di booleani)
+* Definire una classe Compagnia che gestisce N aerei, con N dinamico nel senso che non si conosce a priori ma ogni tanto viene aggiunto un nuovo aereo
+* Definire una classe Biglietteria che gestisce due Compagnie e che consente di prenotare i posti su un aereo
+* Nel main
+* 1) creare due compagnie
+* 2) aggiungere le due compagnie alla agenzia
+* 3) aggiungere qualche aereo a ogni compagnia
+* 4) realizzare un menu per
+* 1) prenotare posto su un aereo
+* 2) Stampare per ogni compagnia e per ogni aereo i posti prenotati e il numero di posto ancora disponibili
+* 
+* francorcr@hotmail.it
+*/
+}
+ 
+}

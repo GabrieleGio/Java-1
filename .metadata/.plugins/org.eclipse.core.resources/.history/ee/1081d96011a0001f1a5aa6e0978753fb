@@ -1,0 +1,44 @@
+import java.util.Arrays;
+
+public class Aereo {
+	private String codice;
+	private String modello;
+    private boolean[] posti;
+
+    public Aereo(String codice, String modello, int numeroPosti) {
+    	this.codice = codice;
+        this.modello = modello;
+        this.posti = new boolean[numeroPosti];
+    }
+
+	public String getCodice() {
+		return codice;
+	}
+
+	public void setCodice(String codice) {
+		this.codice = codice;
+	}
+
+	public String getModello() {
+		return modello;
+	}
+
+	public void setModello(String modello) {
+		this.modello = modello;
+	}
+
+	public boolean[] getPosti() {
+		return posti;
+	}
+
+	public void setPosti(boolean[] posti) {
+		this.posti = posti;
+	}
+
+	@Override
+	public String toString() {
+		return "Aereo [codice=" + codice + ", modello=" + modello + ", posti=" + Arrays.toString(posti) + "]";
+	}
+    
+   
+}
