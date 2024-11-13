@@ -11,8 +11,9 @@ public class Balena extends Mammifero{
 		super();
 	}
 
-	public Balena(int freqCard, int peso, int zampe, int freqResp) {
+	public Balena(int freqCard, int peso, int zampe, int freqResp, String habitat) {
 		super(freqCard, peso, zampe, freqResp);
+		this.habitat = habitat;
 	}
 	
 	
