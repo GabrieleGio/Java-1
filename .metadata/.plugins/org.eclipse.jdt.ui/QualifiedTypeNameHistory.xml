@@ -4,4 +4,11 @@
     <fullyQualifiedTypeName name="Autoveicolo"/>
     <fullyQualifiedTypeName name="Persona"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="ProductManager"/>
+    <fullyQualifiedTypeName name="Abbigliamento"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.nio.file.Path"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
 </qualifiedTypeNameHistroy>

@@ -1,22 +1,2 @@
 INDEX VERSION 1.134+/home/user/Scrivania/Java 1/.metadata/.plugins/org.eclipse.jdt.core
-644291073.index
-3854232661.index
-1408385586.index
-2862419052.index
-3732552508.index
-3794118611.index
-1176741675.index
-168950029.index
-4019331489.index
-1952937521.index
-534468356.index
-667453220.index
-46143182.index
-148653914.index
-59591800.index
-2140923866.index
-4060386107.index
-3817943413.index
 1865797976.index
-3824958924.index
-2963284071.index
